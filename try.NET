@@ -35,9 +35,15 @@ namespace HelloWorldApp
             }
 
             int s = 0;
+<<<<<<< HEAD
             foreach (int n in numbers)
             {
                 s += n;
+=======
+            foreach (int num in numbers)
+            {
+                s += num;
+>>>>>>> feature-new
             }
 
             return (double)s / numbers.Length;
