@@ -34,13 +34,13 @@ namespace HelloWorldApp
                 throw new ArgumentException("Input array cannot be empty or null.");
             }
 
-            int sum = 0;
-            foreach (int num in numbers)
+            int s = 0;
+            foreach (int n in numbers)
             {
-                sum += num;
+                s += n;
             }
 
-            return (double)sum / numbers.Length;
+            return (double)s / numbers.Length;
         }
 
     }
